@@ -5,11 +5,11 @@ print("but you cannot go beyond the rooms since it is not safe for you as of now
 print("r or right to go in right direction")
 print("l or left to go in left direction")
 room=[1,2,3,4,5,6]
-a = room[0]
+a = room[0]                 #initial room number
 i=1
 while i>0:
     try:
-            def room(n):
+            def room(n):                    #defining each room with its own proprties
                 print("You are in room number",n)
                 if n==1:
                     print("This a magical room full of magic")
