@@ -12,5 +12,5 @@ def fibb(n): # defining a fibonacci series
         i += 1
         print(c)
 n = int(input("Enter a number to which you want to calculate the series"))
-fibb(n)
+fibb(n)     #calling the function with a limit
 print("The series end here")
