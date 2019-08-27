@@ -1,4 +1,6 @@
 from random import *
+# creating a function to generate random numbers using the random module
+# the function returns a integer it generates randomly
 def rannum():
     nums=randint(1,6)
     return nums
