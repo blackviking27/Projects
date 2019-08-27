@@ -3,6 +3,8 @@ def fibb(n): # defining a fibonacci series
     i=1
     print(a)
     print(b)
+    # the logic is to edit the add both the numbers and replace it with the second number 
+    # and replace the first number with the second number 
     while i>0:
         c = a+b
         a = b
